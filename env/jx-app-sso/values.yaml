@@ -1,0 +1,10 @@
+dex:
+  connectors:
+    github:
+      config:
+        clientID: vault:gitOps/Bootstrap-Jersey/environment-d69-dev/dex-connectors-github-config:clientID
+        clientSecret: vault:gitOps/Bootstrap-Jersey/environment-d69-dev/dex-connectors-github-config:clientSecret
+        name: GitHub
+        type: github
+  domain: dex.jx.kill-9.uk
+enabledConnector: GitHub
